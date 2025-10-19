@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">CSS</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="text-section" id="textSection">
+            <h1>FULL NAME</h1>
+            <h3><em>"I know what to do - One Liner"</em></h3>
+            <p>Random description that I actually don't know what I am saying but I be spitting out words...</p>
+        </div>
+
+        <div class="image-container">
+            <img src="image/sampleimage1.jpg" alt="Image 1" class="active" onclick="changeProfile(0)">
+            <img src="image/sampleimage2.jpg" alt="Image 2" onclick="changeProfile(1)">
+            <img src="image/sampleimage3.jpg" alt="Image 3" onclick="changeProfile(2)">
+        </div>
+    </div>
+
+    <script>
+        const profiles = [
+            {
+                name: "FULL NAME 1",
+                quote: "“I know what to do - One Liner”",
+                desc: "Description for image 1. This could be about hobbies, interests, or anything."
+            },
+            {
+                name: "FULL NAME 2",
+                quote: "“The world is mine - One Liner”",
+                desc: "Description for image 2. Different person, different story."
+            },
+            {
+                name: "FULL NAME 3",
+                quote: "“Just chillin’ - One Liner”",
+                desc: "Description for image 3. Cool and confident personality."
+            }
+        ];
+
+        function changeProfile(index) {
+            const imgs = document.querySelectorAll('.image-container img');
+            const textSection = document.getElementById('textSection');
+          
+            imgs.forEach((img, i) => img.classList.remove('active', 'left', 'right'));
+            if (index === 0) {
+                imgs[0].classList.add('active');
+                imgs[1].classList.add('right');
+                imgs[2].classList.add('left');
+            } else if (index === 1) {
+                imgs[1].classList.add('active');
+                imgs[2].classList.add('right');
+                imgs[0].classList.add('left');
+            } else {
+                imgs[2].classList.add('active');
+                imgs[0].classList.add('right');
+                imgs[1].classList.add('left');
+            }
+          
+            textSection.innerHTML = `
+                <h1>${profiles[index].name}</h1>
+                <h3><em>${profiles[index].quote}</em></h3>
+                <p>${profiles[index].desc}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
 
