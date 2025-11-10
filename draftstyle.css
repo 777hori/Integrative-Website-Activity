@@ -194,6 +194,11 @@ h1
     font-size: 48px;
     align-items: center;    
     text-align: center;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    scroll-snap-align: start;
+    padding-top: 80px;
 }
 .contain
 {
