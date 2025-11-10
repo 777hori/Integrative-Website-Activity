@@ -54,12 +54,14 @@ nav a:hover
 
 section
 {
-    color: white;
+     color: white;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    justify-content: flex-start; 
     align-items: center;
     scroll-snap-align: start;
+    padding-top: 80px; 
 }
 
 .container
