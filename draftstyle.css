@@ -272,9 +272,9 @@ h3
     text-align: center;
 }
 
-.profile-link {
+.link-button {
     display: inline-block;
-    padding: 6px 10px;
+    padding: 6px 18px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
@@ -282,12 +282,16 @@ h3
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transform: translateY(-1px);
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);      
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
-.profile-link:hover {
-    color: #e6e6e6;           
+
+.link-button:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .list
