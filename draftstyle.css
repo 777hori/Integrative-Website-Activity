@@ -375,6 +375,20 @@ footer p
 /*Samsung Galaxy s8+ - NICK*/
 
 /*Ipad Pro - ABELARDE*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  body {
+    background-color: #f5bae5; 
+  }
+
+  .Introduction h1 {
+    font-size: 36px;
+  }
+
+  .contain .card {
+    width: 250px;
+    height: 350px;
+  }
+} 
 
 /*Samusung Galaxy a51/a71 - EUAN*/
 @media (max-width: 412px) and (max-height: 914px) {
