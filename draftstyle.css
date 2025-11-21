@@ -413,7 +413,12 @@ footer p
   }
 }
 
-/*Samusung Galaxy a51/a71 - EUAN*/
+/*Samsung Galaxy a51/a71 | Samsung Galaxy S8 | Iphone 12 Pro - EUAN, NICK, YANCEY
+DIMENSIONS:
+A15: 412x914
+S8 : 360x740
+12 : 390x844
+*/ 
 @media (max-width: 412px) and (max-height: 914px) {
 
     body {
