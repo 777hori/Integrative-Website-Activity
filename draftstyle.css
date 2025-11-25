@@ -704,24 +704,4 @@ footer p
     }
 }
 
-.card {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    background: #fff;
-}
-
-.photo {
-    width: 160px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.information {
-    flex: 1;
-}
 
