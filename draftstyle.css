@@ -704,17 +704,24 @@ footer p
     }
 }
 
-.intro-bg-wrapper {
-    width: 100%;
+.card {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 80px 0;
-
-    background-image: ; ("image/introbg.png")
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    border-radius: 20px; 
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #fff;
 }
+
+.photo {
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.information {
+    flex: 1;
+}
+
