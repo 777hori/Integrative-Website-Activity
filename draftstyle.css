@@ -206,7 +206,7 @@ h2
 {
 
     background-image: url("https://raw.githubusercontent.com/777hori/Integrative-Website-Activity/main/image/introbg2.png");
-    background-size: 120%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
