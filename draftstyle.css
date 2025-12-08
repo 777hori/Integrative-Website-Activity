@@ -205,12 +205,12 @@ h2
 .contain
 {
 
-    background-image: url("https://raw.githubusercontent.com/777hori/Integrative-Website-Activity/main/image/introbg.png");
+    background-image: url("https://raw.githubusercontent.com/777hori/Integrative-Website-Activity/main/image/introbg2.png");
     background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
 
-    padding: 40px 0;        
+    padding: 75px 0;        
     display: flex;          
     justify-content: center;
     gap: 20px;
@@ -236,7 +236,7 @@ h2
     align-items: center;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 
