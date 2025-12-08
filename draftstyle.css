@@ -206,11 +206,11 @@ h2
 {
 
     background-image: url("https://raw.githubusercontent.com/777hori/Integrative-Website-Activity/main/image/introbg2.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
-    padding: 20px 0;        
+    padding: 40px 0;        
     display: flex;          
     justify-content: center;
     gap: 20px;
