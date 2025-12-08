@@ -204,6 +204,17 @@ h2
 
 .contain
 {
+
+    background-image: url("https://raw.githubusercontent.com/777hori/Integrative-Website-Activity/main/image/introbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 40px 0;        
+    display: flex;          
+    justify-content: center;
+    gap: 20px;
+    
     position: relative;
     display: flex;
     justify-content: center;
