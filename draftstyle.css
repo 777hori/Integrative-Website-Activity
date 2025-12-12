@@ -537,6 +537,12 @@ footer p
 @media only screen and (min-width: 1024px) and (max-width: 1366px) 
 {
 
+    .Syntang-Bloke-3D 
+    { 
+        width: 50%;
+        height: 50%;
+    }
+
     body 
     {
         background-color: pink;
@@ -544,13 +550,14 @@ footer p
 
     .centered-nav 
     {
-        gap: 24px;
-        padding: 12px 20px;
+        gap: 12px;
+        padding: 6px 10px;
+        font-size: 5%;
     }
 
     nav a 
     { 
-        font-size: 15px; 
+        font-size: 10px; 
     }
 
     .Introduction h1 
@@ -567,11 +574,6 @@ footer p
         width: 280px;
         height: 380px;
         margin: 22px;
-    }
-
-    .Syntang-Bloke-3d 
-    { 
-        height: 78vh; 
     }
 
     .format-each-section 
@@ -627,15 +629,16 @@ footer p
 
 @media (max-width: 900px) 
 {
-    .Syntang-Bloke-3d 
+    .Syntang-Bloke-3D 
     { 
-        height: 38vh; 
-        width: 48vh;
+        width: 50%;
+        height: 50%;
     }
 
     .centered-nav 
     {
-        flex-direction: column;
+        flex-direction: row;
+        font-size: 5%;
         gap: 12px;
         padding: 10px;
     }
@@ -692,10 +695,18 @@ footer p
     }
     .hobby-box 
     {
-        width: 90vw;
+        width: 100vw;
         max-width: 340px;
+        margin: 0;
+        padding: 2px;
+    }
+    .gallery-picture
+    {
+        width: 90vw;
+        max-width: 320px;
+        height: auto;
         margin: 0 auto;
-        padding: 12px;
+        display: block;
     }
     .poster 
     {
@@ -705,16 +716,31 @@ footer p
         margin: 0 auto;
         display: block;
     }
+    .col .logo
+    {
+        width: 120px;
+        margin: 20px auto;
+    }
+    .col h3
+    {
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .row 
     {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100%; 
         gap: 16px;
     }
     .col 
     {
         width: 100%;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         padding: 8px 0;
     }
