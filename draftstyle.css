@@ -539,8 +539,8 @@ footer p
 
     .Syntang-Bloke-3D 
     { 
-        width: 50%;
-        height: 50%;
+        scale: 1;
+        zoom: 50%;
     }
 
     body 
@@ -631,8 +631,8 @@ footer p
 {
     .Syntang-Bloke-3D 
     { 
-        width: 50%;
-        height: 50%;
+        scale: 1;
+        zoom: 50%;
     }
 
     .centered-nav 
