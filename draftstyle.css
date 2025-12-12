@@ -186,16 +186,7 @@ nav a:hover
     transition: transform 0.3s ease;
 }
 
-.logo {
-    display: block;
-    margin: 20px auto;
-    width: 150px;
-    height: 150px;
-    border: 2px solid black;
-    padding: 2px;
-    border-radius: 50%;
-    box-sizing: border-box;
-}
+
 
 
 /* Section-Members */
@@ -758,3 +749,13 @@ footer p
     }
 }
 
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
