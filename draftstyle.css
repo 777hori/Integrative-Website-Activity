@@ -746,3 +746,13 @@ footer p
     }
 }
 
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
