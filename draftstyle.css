@@ -468,7 +468,7 @@ footer
     padding: 10px;
 }
 
-.logo
+footer .row .col .logo-footer
 {
     width: 80%;
     margin: 30px;
